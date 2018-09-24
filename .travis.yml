@@ -27,7 +27,8 @@ git:
   depth: 22
 
 script:
-  - debuild -a -c meilix-artwork
+  - chmod +x debuild.sh
+  - ./debuild.sh |& tee log.txt
 
 before_deploy:
   - export image_name="`echo *.deb "
