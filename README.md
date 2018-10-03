@@ -1,3 +1,8 @@
+# meilix-artwork
+
+[![Join the chat at https://gitter.im/fossasia/meilix](https://badges.gitter.im/fossasia/meilix.svg)](https://gitter.im/fossasia/meilix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/fossasia/meilix.svg?branch=master)](https://travis-ci.org/fossasia/meilix-artwork)
+
+
 meilix-artwork comprises the sources for the two plymouth bootscreen theme packages for Meilix.
 
 The naming follows the convention on debian family distributions see xubuntu-artwork etc.
