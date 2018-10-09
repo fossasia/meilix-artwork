@@ -5,7 +5,7 @@
 
 meilix-artwork comprises the sources for the two plymouth bootscreen theme packages for Meilix.
 
-The naming follows the convention on debian family distributions see xubuntu-artwork etc.
+The naming follows the convention on Debian family distributions see xubuntu-artwork etc.
 
 We plan use Travis for debuilding the two debian packages, one for logo, one for text based startup screen.
 
