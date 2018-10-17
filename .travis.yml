@@ -9,7 +9,7 @@ git:
   depth: 22
 
 before_script:
-  - sudo apt-get install devscripts debhelper
+  - sudo apt-get install devscripts debhelper libfile-fcntllock-perl 
 
 script:
   - chmod +x debuild.sh
