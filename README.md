@@ -4,6 +4,9 @@
 
 
 meilix-artwork comprises the sources for the two plymouth bootscreen theme packages for Meilix.
+- plymouth-meilix-logo_1.0-1_all.deb 
+- plymouth-meilix-text_1.0-1_all.deb
+TODO: Add Screenshots
 
 The naming follows the convention on Debian family distributions see xubuntu-artwork etc.
 
@@ -15,4 +18,4 @@ TODO: howto install and test see issue #16
 
 See https://wiki.ubuntuusers.de/Plymouth/ for details.
 
-The goal is to move the plymouth theme package debuilding from the meilix repository to this one.
+The goal is to move the plymouth theme package debuilding from the meilix repository (https://github.com/fossasia/meilix) to this one.
