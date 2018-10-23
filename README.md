@@ -6,7 +6,7 @@ The goal was to move the plymouth theme package debuilding from the meilix repos
 - plymouth-meilix-logo_1.0-1_all.deb 
 - plymouth-meilix-text_1.0-1_all.deb
 
-TODO: Add Screenshots
+TODO: Add Screenshots see ticket #20
 
 The naming meilix-artwork follows the convention on Debian family distributions, see xubuntu-artwork etc.
 
