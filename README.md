@@ -7,9 +7,11 @@ meilix-artwork comprises the sources for the two plymouth bootscreen theme packa
 
 The naming follows the convention on Debian family distributions see xubuntu-artwork etc.
 
-We plan use Travis for debuilding the two debian packages, one for logo, one for text based startup screen.
+We plan use Travis (https://travis-ci.org/fossasia/meilix-artwork) for debuilding the two debian packages, one for logo, one for text based startup screen. At present these files are found in the deb branch of this repository.
 
-These packages should be installable/testable on any Debian or Ubuntu derivate system and could be configured as the default boot screen.
+These two packages should be installable/testable on any Debian or Ubuntu derivate system and could be configured as the default boot screen.
+
+TODO: howto install and test see issue #16
 
 See https://wiki.ubuntuusers.de/Plymouth/ for details.
 
