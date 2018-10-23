@@ -20,7 +20,9 @@ deploy:
   provider: releases
   api_key:
     secure: WdeGjOS9b7wz0jCT6OSKQNmA1gDduUbPST4+JidxTc8IsJfmfbWyuX465Phh/TEs9usE2wyvRESC1/ClD7Wdys4U1HLCNzRaKqxShFwwWYDCiHuEfKW9uAQ94xYP+4TrJHICMmvx0pFK1ZC02RXs0plw4SkIxexl6vQ1jyztkeRdFDAPvbpnla+xWlg5W5Q9PGzoareQcMVP7FM3enJuAFRMpZO/tL/0H5EPk7/E6jUf4mDvyVt2MGZZa+M0viHsQYaK+t1tssQ5XbRAKccwBd7TkkJemuce7LSouhkfbKXSri7doCFfoaLUNXlv9XL9A0MY0IWNLAWifvT7jcSQa0dsNJPbTKe8AwUnB3pBq6lDFRYZJ9IBNThMvXlpf6fjiRTfrFDDGErH2J29x1ghzIsmqB3oIiI76wwv3QTABHP+y7aMOYrhH2uPB+iQRMnA6t2JF2FzLa6BJ2YaCT/alGRU2ObmDgxk9xyypkIyvztsBHzrz5WLN2rCrB9/MOT2E/gRfNYZU2jNybmuoJOFQy3Z4sirg+9oKpK1pB1IewDRnsCbNtMOtsuTDOtxDxBJb1sPLHCUKv5uETqFYp9si6Qnxi9S2Q6SchQ++PmoWmADEMnC8nmp/+Nxgr/8APd/Vjv0Yupao//oHXmNuOo5EIeO+0oo042qgG4Mhii45Ec=
-  file: "./plymouth-meilix-logo_1.0-1_all.deb"
+  file:
+    - "./plymouth-meilix-logo_1.0-1_all.deb"
+    - "./plymouth-meilix-text_1.0-1_all.deb"
   on:
     repo: pranav1698/meilix-artwork
     branch: deploy-debfiles
