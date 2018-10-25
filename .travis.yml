@@ -19,10 +19,10 @@ slack: fossasia:3pMkQrSogvEMfnu9aJDW2ZYC
 deploy:
   provider: releases
   api_key:
-    secure: WdeGjOS9b7wz0jCT6OSKQNmA1gDduUbPST4+JidxTc8IsJfmfbWyuX465Phh/TEs9usE2wyvRESC1/ClD7Wdys4U1HLCNzRaKqxShFwwWYDCiHuEfKW9uAQ94xYP+4TrJHICMmvx0pFK1ZC02RXs0plw4SkIxexl6vQ1jyztkeRdFDAPvbpnla+xWlg5W5Q9PGzoareQcMVP7FM3enJuAFRMpZO/tL/0H5EPk7/E6jUf4mDvyVt2MGZZa+M0viHsQYaK+t1tssQ5XbRAKccwBd7TkkJemuce7LSouhkfbKXSri7doCFfoaLUNXlv9XL9A0MY0IWNLAWifvT7jcSQa0dsNJPbTKe8AwUnB3pBq6lDFRYZJ9IBNThMvXlpf6fjiRTfrFDDGErH2J29x1ghzIsmqB3oIiI76wwv3QTABHP+y7aMOYrhH2uPB+iQRMnA6t2JF2FzLa6BJ2YaCT/alGRU2ObmDgxk9xyypkIyvztsBHzrz5WLN2rCrB9/MOT2E/gRfNYZU2jNybmuoJOFQy3Z4sirg+9oKpK1pB1IewDRnsCbNtMOtsuTDOtxDxBJb1sPLHCUKv5uETqFYp9si6Qnxi9S2Q6SchQ++PmoWmADEMnC8nmp/+Nxgr/8APd/Vjv0Yupao//oHXmNuOo5EIeO+0oo042qgG4Mhii45Ec=
+    secure: Z/FXwDBbeylKP3qY8slHtM9rUzxUtGLNz0QMGefbkSrOvRseqwCFTmMiek+jBNETuEwEU057wioYULQAV/7gFX358i1VzlPMUSGSZSKSb1uPqzeUGa/I3wgOFFDcrK2ntNByWQLRlQbxubauwTo/YxIvQQI9wCC5ML41R/lw+ixuf45goPdMmbcX6TiTcNQWcbT4vC/qP5pTVVTD89gAqcmUq/gXY4OQ49Bzctna4P7AEBpk6e7FBHQG6CLgSeLTj7m/ZaRjP5Jc/PRjGGeQGhPtvXhES+gL85Dwep091iG39B60FvXDTjkhi4ObHeOlKbjf3WzaD143kl3sYhNEMfArdz3u1mAnfcVw5r11gm02sWuWqNdtAPAOFmHk/bqtOE8Va7c0WlhvDjrlrqBiCmy3Prr756bZ7x0HjuivBtFB7NudcugeQVHBls9G9NfQkf9quXtTlLdfjABvgaRUZ843rv6uLuvbmRAJ6lOvXIYF9Z5TwoKZ59Z/BAD4QClcWQRXDclD5cnCzZSFS/aGdqya77g7NS0oVFKxjjyrdU4vQh1WrgtGL3dOAi49e+NDqvztUk8UJ/+8Zw7QdydKGyA2pAIFv5kx/8i6dF1EF2XMJ2CVnvuvloO/MEjm3h68jL7op+zZ1oEjCaHZ2746k0G3ZCC7e54uWICZwoWkhWc=
   file:
     - "./plymouth-meilix-logo_1.0-1_all.deb"
     - "./plymouth-meilix-text_1.0-1_all.deb"
   on:
-    repo: pranav1698/meilix-artwork
-    branch: deploy-debfiles
+    repo: fossasia/meilix-artwork
+    branch: deb
