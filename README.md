@@ -2,6 +2,10 @@
 
 [![Join the chat at https://gitter.im/fossasia/meilix](https://badges.gitter.im/fossasia/meilix.svg)](https://gitter.im/fossasia/meilix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/fossasia/meilix.svg?branch=master)](https://travis-ci.org/fossasia/meilix-artwork)
 
+## Getting Started:
+- If you're new to this and want more information, visit [this link](https://wireframesketcher.com/support/install/installing-deb-package-on-ubuntu-debian.html) to better understand debian package installing. 
+- Understand the working of Travis [here](https://docs.travis-ci.com/)
+
 The goal was to move the plymouth theme package debuilding from the meilix repository (https://github.com/fossasia/meilix) to this independent one. meilix-artwork comprises the sources for the two plymouth bootscreen theme packages for Meilix.
 - plymouth-meilix-logo_1.0-1_all.deb 
 - plymouth-meilix-text_1.0-1_all.deb
