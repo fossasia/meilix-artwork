@@ -48,3 +48,5 @@ TODO: Add Screenshots see ticket #20
 * **Step 5:** Execute the command: ```$ sudo update-initramfs -u -k all```
 
 TODO: Add Screenshots see ticket #20
+
+See https://wiki.ubuntu.com/Plymouth for details. Or  https://wiki.ubuntuusers.de/Plymouth/ for the instructions in Dutch.
