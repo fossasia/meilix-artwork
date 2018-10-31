@@ -8,10 +8,10 @@ Homepage: http://mbm.vn
 
 Package: plymouth-meilix-logo
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: Plymouth theme meilix.
 
 Package: plymouth-meilix-text
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: Plymouth theme meilix.
