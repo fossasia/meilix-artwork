@@ -1,0 +1,56 @@
+#!/bin/sh -e
+# This script can be called in the following ways:
+#
+# After the package was removed:
+#       <prerm> remove
+#
+# After the package was purged:
+#       <prerm> purge
+#
+# After the package was upgraded:
+#       <old-prerm> upgrade <new-version>
+# if that fails:
+#       <new-prerm> failed-upgrade <old-version>
+#
+#
+# After all of the packages files have been replaced:
+#       <prerm> disappear <overwriting-package> <version>
+#
+#
+# If preinst fails during install:
+#       <new-prerm> abort-install
+#
+# If preinst fails during upgrade of removed package:
+#       <new-prerm> abort-install <old-version>
+#
+# If preinst fails during upgrade:
+#       <new-prerm> abort-upgrade <old-version>
+
+case "$1" in
+    remove)
+		update-alternatives \
+            --remove default.plymouth /usr/share/plymouth/themes/meilix-logo/meilix-logo.plymouth
+
+		if which update-initramfs >/dev/null 2>&1
+		then
+	    	update-initramfs -u
+		fi
+		;;
+
+    purge)
+		;;
+
+    upgrade|failed-upgrade|disappear)
+		;;
+
+    abort-install|abort-upgrade)
+		;;
+
+    *)
+		echo "$0 called with unknown argument \`$1'" 1>&2
+		exit 1
+		;;
+esac
+
+#DEBHELPER#
+exit 0
