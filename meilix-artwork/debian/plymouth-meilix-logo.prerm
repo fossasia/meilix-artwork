@@ -28,28 +28,28 @@
 
 case "$1" in
     remove)
-        update-alternatives \
-            --remove default.plymouth /usr/share/plymouth/themes/meilix-logo/meilix-logo.plymmouth
+		update-alternatives \
+            --remove default.plymouth /usr/share/plymouth/themes/meilix-logo/meilix-logo.plymouth
 
-        if which update-initramfs >/dev/null 2>&1
-        then
-            update-initramfs -u 
-        fi 
-        ;;
+		if which update-initramfs >/dev/null 2>&1
+		then
+	    	update-initramfs -u
+		fi
+		;;
 
     purge)
-        ;;
+		;;
 
-    upgrade | failed-upgrade | disappear)
-        ;;
+    upgrade|failed-upgrade|disappear)
+		;;
 
-    abort-install | abort-upgrade)
-        ;;
+    abort-install|abort-upgrade)
+		;;
 
     *)
-        echo "$0 called with unknown argument \`$1'" 1>&2
-        exit 1
-        ;;
+		echo "$0 called with unknown argument \`$1'" 1>&2
+		exit 1
+		;;
 esac
 
 #DEBHELPER#
