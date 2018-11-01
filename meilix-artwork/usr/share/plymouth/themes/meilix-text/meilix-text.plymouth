@@ -1,7 +1,7 @@
 [Plymouth Theme]
 Name=Meilix Text
 Description=Text mode plymouth theme for Meilix
-ModuleName=meilix-text
+ModuleName=ubuntu-text
 
 [ubuntu-text]
 title=Meilix

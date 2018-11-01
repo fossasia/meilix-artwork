@@ -13,5 +13,5 @@ Description: Plymouth theme meilix.
 
 Package: plymouth-meilix-text
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth, plymouth-label, plymouth-theme-ubuntu-text
 Description: Plymouth theme meilix.
