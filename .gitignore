@@ -6,8 +6,8 @@ meilix-artwork_1.0-1.dsc
 meilix-artwork_1.0-1.tar.xz
 
 #Debain generated files
-/meilix-artwork/debian/plymouth-meilix-logo/
-/meilix-artwork/debian/plymouth-meilix-text/
+/meilix-artwork/debian/plymouth-theme-meilix-logo/
+/meilix-artwork/debian/plymouth-theme-meilix-text/
 /meilix-artwork/debian/.debhelper/
 /meilix-artwork/debian/tmp/
 
@@ -15,7 +15,7 @@ meilix-artwork_1.0-1.tar.xz
 /meilix-artwork/debian/docs
 /meilix-artwork/debian/files
 /meilix-artwork/debian/debhelper-build-stamp
-/meilix-artwork/debian/plymouth-meilix-logo.debhelper.log
-/meilix-artwork/debian/plymouth-meilix-logo.substvars
-/meilix-artwork/debian/plymouth-meilix-text.debhelper.log
-/meilix-artwork/debian/plymouth-meilix-text.substvars
+/meilix-artwork/debian/plymouth-theme-meilix-logo.debhelper.log
+/meilix-artwork/debian/plymouth-theme-meilix-logo.substvars
+/meilix-artwork/debian/plymouth-theme-meilix-text.debhelper.log
+/meilix-artwork/debian/plymouth-theme-meilix-text.substvars
