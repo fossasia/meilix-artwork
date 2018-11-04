@@ -21,8 +21,8 @@ deploy:
   api_key:
     secure: Z/FXwDBbeylKP3qY8slHtM9rUzxUtGLNz0QMGefbkSrOvRseqwCFTmMiek+jBNETuEwEU057wioYULQAV/7gFX358i1VzlPMUSGSZSKSb1uPqzeUGa/I3wgOFFDcrK2ntNByWQLRlQbxubauwTo/YxIvQQI9wCC5ML41R/lw+ixuf45goPdMmbcX6TiTcNQWcbT4vC/qP5pTVVTD89gAqcmUq/gXY4OQ49Bzctna4P7AEBpk6e7FBHQG6CLgSeLTj7m/ZaRjP5Jc/PRjGGeQGhPtvXhES+gL85Dwep091iG39B60FvXDTjkhi4ObHeOlKbjf3WzaD143kl3sYhNEMfArdz3u1mAnfcVw5r11gm02sWuWqNdtAPAOFmHk/bqtOE8Va7c0WlhvDjrlrqBiCmy3Prr756bZ7x0HjuivBtFB7NudcugeQVHBls9G9NfQkf9quXtTlLdfjABvgaRUZ843rv6uLuvbmRAJ6lOvXIYF9Z5TwoKZ59Z/BAD4QClcWQRXDclD5cnCzZSFS/aGdqya77g7NS0oVFKxjjyrdU4vQh1WrgtGL3dOAi49e+NDqvztUk8UJ/+8Zw7QdydKGyA2pAIFv5kx/8i6dF1EF2XMJ2CVnvuvloO/MEjm3h68jL7op+zZ1oEjCaHZ2746k0G3ZCC7e54uWICZwoWkhWc=
   file: 
-    - "./plymouth-meilix-logo_1.0-1_all.deb"
-    - "./plymouth-meilix-text_1.0-1_all.deb"
+    - "./plymouth-theme-meilix-logo_1.0-1_all.deb"
+    - "./plymouth-theme-meilix-text_1.0-1_all.deb"
   on:
     repo: fossasia/meilix-artwork
     branch: deb
