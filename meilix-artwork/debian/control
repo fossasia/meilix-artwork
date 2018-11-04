@@ -6,12 +6,12 @@ Build-Depends: debhelper (>= 8.0.0), python(>=2.6)
 Standards-Version: 3.9.2
 Homepage: http://mbm.vn
 
-Package: plymouth-meilix-logo
+Package: plymouth-theme-meilix-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: Plymouth theme meilix.
 
-Package: plymouth-meilix-text
+Package: plymouth-theme-meilix-text
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label, plymouth-theme-ubuntu-text
 Description: Plymouth theme meilix.
