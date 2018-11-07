@@ -1,6 +1,6 @@
 Source: meilix-artwork
 Section: x11
-Priority: extra
+Priority: optional
 Maintainer: Mario Behling <mb@mariobehling.de>
 Build-Depends: debhelper (>= 8.0.0), python(>=2.6)
 Standards-Version: 4.1.3
@@ -9,9 +9,12 @@ Homepage: http://mbm.vn
 Package: plymouth-theme-meilix-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
-Description: Plymouth theme meilix.
+Description: graphical boot animation and logger - meilix-logo theme
+ This package contains the default meilix-logo theme.
 
 Package: plymouth-theme-meilix-text
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label, plymouth-theme-ubuntu-text
-Description: Plymouth theme meilix.
+Description: graphical boot animation and logger - meilix-text theme
+ This package contains the default meilix-text theme used when no support for
+ a graphical theme is found on your system.
