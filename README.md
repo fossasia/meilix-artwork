@@ -35,7 +35,7 @@ Previously Plymouth theme package debuilding used to be done within the meilix b
 * **Step 5:** Execute the command: ```$ sudo update-initramfs -u -k all```
 * **Step 6:** Finally reboot
 
-TODO: Add Screenshots see ticket #20
+![Logo](/docs/screenshots/logo.png)
 
 ### For the text package
 * **Step 1:** Install the plymouth-theme-meilix-text_1.0-1_all.deb by running ```$ sudo dpkg -i ./plymouth-meilix-text_1.0-1_all.deb```
@@ -45,6 +45,6 @@ TODO: Add Screenshots see ticket #20
     - Select the meilix text theme
 * **Step 5:** Execute the command: ```$ sudo update-initramfs -u -k all```
 
-TODO: Add Screenshots see ticket #20
+![Text](/docs/screenshots/text.png)
 
 See https://wiki.ubuntu.com/Plymouth for details. Or  https://wiki.ubuntuusers.de/Plymouth/ for the instructions in Dutch.
