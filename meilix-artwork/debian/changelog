@@ -3,3 +3,9 @@ meilix-artwork (1.0-1) unstable; urgency=low
   * Prepare for Meilix
 
  -- Meilix <mb@mariobehling.de>  Thu, 28 Mar 2013 16:04:48 +0700
+
+meilix-artwork (1.0-1) unstable; urgency=low
+
+  * Closes itp bug
+
+ -- Meilix <mb@mariobehling.de>  Thu, 28 Mar 2013 16:04:48 +0700
