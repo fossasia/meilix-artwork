@@ -29,9 +29,6 @@
 
 case "$1" in
     remove)
-	update-alternatives \
-		--remove default.plymouth /usr/share/plymouth/themes/meilix-logo/meilix-logo.plymouth
-
 	if which update-initramfs >/dev/null 2>&1
 	then
 	    update-initramfs -u
