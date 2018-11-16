@@ -27,7 +27,7 @@ Previously Plymouth theme package debuilding used to be done within the meilix b
 # Testing the deb 
 
 ### For the logo package
-* **Step 1:** Install the plymouth-theme-meilix-logo_1.0-1_all.deb by running ```$ sudo dpkg -i ./plymouth-meilix-logo_1.0-1_all.deb```
+* **Step 1:** Install the plymouth-theme-meilix-logo_1.0-1_all.deb by running ```$ sudo dpkg -i ./plymouth-theme-meilix-logo_1.0-1_all.deb```
 * **Step 2:** Execute ```$ sudo apt-get install -f```
 * **Step 3:** Install Plymouth with this theme: ```$ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/meilix-logo/meilix-logo.plymouth 100```
 * **Step 4:** Update Plymouth with this theme: ```$ sudo update-alternatives --config default.plymouth``` 
@@ -38,7 +38,7 @@ Previously Plymouth theme package debuilding used to be done within the meilix b
 ![Logo](/docs/screenshots/logo.png)
 
 ### For the text package
-* **Step 1:** Install the plymouth-theme-meilix-text_1.0-1_all.deb by running ```$ sudo dpkg -i ./plymouth-meilix-text_1.0-1_all.deb```
+* **Step 1:** Install the plymouth-theme-meilix-text_1.0-1_all.deb by running ```$ sudo dpkg -i ./plymouth-theme-meilix-text_1.0-1_all.deb```
 * **Step 2:** Execute ```$ sdo apt-get install -f```
 * **Step 3:** Install Plymouth with this theme: ```$ sudo update-alternatives --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/meilix-text/meilix-text.plymouth 150```
 * **Step 4:** Update Plymouth with this theme: ```$ sudo update-alternatives --config text.plymouth``` 
