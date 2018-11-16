@@ -47,4 +47,9 @@ Previously Plymouth theme package debuilding used to be done within the meilix b
 
 ![Text](/docs/screenshots/text.png)
 
+
+Finally reboot or install the plymouth-x11 package test environment ```$ sudo apt-get install plymouth-x11 ```, envoke the demon ```$ sudo plymouthd ``` and show the splash screen ```$ sudo plymouth --show-splash ``` and kill it ```$ sudo plymouth quit ```. Or as a one liner:
+```$ sudo plymouthd; sudo plymouth --show-splash ; for ((I=0; I<10; I++)); do sudo plymouth --update=test$I ; sleep 1; done; sudo plymouth quit''' 
+
+
 See https://wiki.ubuntu.com/Plymouth for details. Or  https://wiki.ubuntuusers.de/Plymouth/ for the instructions in Dutch.
