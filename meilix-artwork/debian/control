@@ -8,13 +8,13 @@ Homepage: http://mbm.vn
 
 Package: plymouth-theme-meilix-logo
 Architecture: all
-Depends: ${misc:Depends}, plymouth
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: graphical boot animation and logger - meilix-logo theme
  This package contains the default meilix-logo theme.
 
 Package: plymouth-theme-meilix-text
 Architecture: all
-Depends: ${misc:Depends}, plymouth
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: graphical boot animation and logger - meilix-text theme
  This package contains the default meilix-text theme used when no support for
  a graphical theme is found on your system.
