@@ -14,7 +14,7 @@ Description: graphical boot animation and logger - meilix-logo theme
 
 Package: plymouth-theme-meilix-text
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label, plymouth-theme-ubuntu-text
+Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: graphical boot animation and logger - meilix-text theme
  This package contains the default meilix-text theme used when no support for
  a graphical theme is found on your system.
