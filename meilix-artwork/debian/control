@@ -12,6 +12,12 @@ Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: graphical boot animation and logger - meilix-logo theme
  This package contains the default meilix-logo theme.
 
+Package: plymouth-theme-meilix-logo-2
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Description: graphical boot animation and logger - meilix-logo-2 theme
+ This package contains the new meilix-logo-2 theme.
+
 Package: plymouth-theme-meilix-text
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
