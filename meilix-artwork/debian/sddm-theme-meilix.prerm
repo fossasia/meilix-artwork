@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
+    update-alternatives --remove \
+        sddm-ubuntu-theme \
+        /usr/share/sddm/themes/meilix
+fi
+
+# Tag to allow some debhelper commands to inject relevant code
+#DEBHELPER#
