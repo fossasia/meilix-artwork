@@ -1,3 +1,9 @@
+meilix-artwork (1.0-2) UNRELEASED; urgency=medium
+
+  * Added a new version for artwork package
+
+ -- Pranav Kulshrestha <hulkcodexl16@gmail.com>  Wed, 26 Dec 2018 18:11:58 +0530
+
 meilix-artwork (1.0-1) unstable; urgency=low
 
   * Prepare for Meilix
