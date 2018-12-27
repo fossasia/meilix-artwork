@@ -1,3 +1,10 @@
+meilix-artwork (1.0-1) UNRELEASED; urgency=medium
+
+  * Removed typo for meilix-text package
+  * We have added a new version for bootscreen theme 
+
+ -- Pranav Kulshrestha <hulkcodexl16@gmail.com>  Thu, 06 Dec 2018 19:56:33 +0530
+
 meilix-artwork (1.0-1) unstable; urgency=low
 
   * Prepare for Meilix
