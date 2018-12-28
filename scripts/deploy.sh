@@ -14,8 +14,8 @@ if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
   # Clone the repository in the buildApk folder
   git clone --quiet --branch=deb https://abishekvashok:$GITHUB_API_KEY@github.com/fossasia/meilix-artwork deb > /dev/null
 
-  cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-logo_1.0-1_all.deb deb/
-  cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-text_1.0-1_all.deb deb/
+  cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-logo_*_all.deb deb/
+  cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-text_*_all.deb deb/
   cd deb
 
   git checkout --orphan workaround
