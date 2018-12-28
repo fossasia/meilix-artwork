@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-remove" ]; then
+    update-alternatives --install \
+        /usr/share/sddm/themes/ubuntu-theme \
+        sddm-ubuntu-theme \
+        /usr/share/sddm/themes/meilix 50
+fi
+
+# Tag to allow some debhelper commands to inject relevant code
+#DEBHELPER#
