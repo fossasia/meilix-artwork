@@ -1,14 +1,15 @@
 #Build files 
-meilix-artwork_1.0-1_amd64.build
-meilix-artwork_1.0-1_amd64.buildinfo
-meilix-artwork_1.0-1_amd64.changes
-meilix-artwork_1.0-1.dsc
-meilix-artwork_1.0-1.tar.xz
+meilix-artwork_*_amd64.build
+meilix-artwork_*_amd64.buildinfo
+meilix-artwork_*_amd64.changes
+meilix-artwork_*.dsc
+meilix-artwork_*.tar.xz
 
 #Debain generated files
 /meilix-artwork/debian/plymouth-theme-meilix-logo/
 /meilix-artwork/debian/plymouth-theme-meilix-logo-2/
 /meilix-artwork/debian/plymouth-theme-meilix-text/
+/meilix-artwork/debian/sddm-theme-meilix/
 /meilix-artwork/debian/.debhelper/
 /meilix-artwork/debian/tmp/
 
@@ -22,3 +23,5 @@ meilix-artwork_1.0-1.tar.xz
 /meilix-artwork/debian/plymouth-theme-meilix-logo.substvars
 /meilix-artwork/debian/plymouth-theme-meilix-text.debhelper.log
 /meilix-artwork/debian/plymouth-theme-meilix-text.substvars
+/meilix-artwork/debian/sddm-theme-meilix.debhelper.log
+/meilix-artwork/debian/sddm-theme-meilix.substvars

@@ -24,3 +24,11 @@ Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: graphical boot animation and logger - meilix-text theme
  This package contains the default meilix-text theme used when no support for
  a graphical theme is found on your system.
+
+Package: sddm-theme-meilix
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: sddm
+Provides: sddm-theme
+Description: Meilix theme for SDDM X11 display manager
+ Meilix chooser theme for SDDM

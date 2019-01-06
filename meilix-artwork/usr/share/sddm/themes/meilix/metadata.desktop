@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=meilix
+Description=Meilix Theme
+Author=Meilix Artwork Team
+Copyright=(c) 2018, Meilix Artwork Theme
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=background.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=meilix
+Theme-API=2.0
