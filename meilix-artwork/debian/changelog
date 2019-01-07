@@ -1,3 +1,12 @@
+
+meilix-artwork (1.0-2) unstable; urgency=low
+
+  * updated standard version 
+  * debhelper bumped
+  * closes issue #81 
+
+ -- Manas Kashyap <manaskashyaptech@gmail.com>  Sat, 15 Dec 2018 20:18:43 +0530
+
 meilix-artwork (1.0-2) UNRELEASED; urgency=medium
 
   * Added a new version for artwork package
@@ -10,6 +19,7 @@ meilix-artwork (1.0-1) UNRELEASED; urgency=medium
   * We have added a new version for bootscreen theme 
 
  -- Pranav Kulshrestha <hulkcodexl16@gmail.com>  Thu, 06 Dec 2018 19:56:33 +0530
+
 
 meilix-artwork (1.0-1) unstable; urgency=low
 
