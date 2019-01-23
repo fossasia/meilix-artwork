@@ -10,6 +10,7 @@ meilix-artwork_*.tar.xz
 /meilix-artwork/debian/plymouth-theme-meilix-logo-2/
 /meilix-artwork/debian/plymouth-theme-meilix-text/
 /meilix-artwork/debian/sddm-theme-meilix/
+/meilix-artwork/debian/meilix-default-theme/
 /meilix-artwork/debian/.debhelper/
 /meilix-artwork/debian/tmp/
 
@@ -25,3 +26,6 @@ meilix-artwork_*.tar.xz
 /meilix-artwork/debian/plymouth-theme-meilix-text.substvars
 /meilix-artwork/debian/sddm-theme-meilix.debhelper.log
 /meilix-artwork/debian/sddm-theme-meilix.substvars
+/meilix-artwork/debian/meilix-default-theme.debhelper.log
+/meilix-artwork/debian/meilix-default-theme.postinst.debhelper
+/meilix-artwork/debian/meilix-default-theme.postrm.debhelper
