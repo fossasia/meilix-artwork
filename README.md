@@ -52,4 +52,4 @@ Finally reboot or install the plymouth-x11 package test environment ```$ sudo ap
 ```$ sudo plymouthd; sudo plymouth --show-splash ; for ((I=0; I<10; I++)); do sudo plymouth --update=test$I ; sleep 1; done; sudo plymouth quit ```
 
 
-See https://wiki.ubuntu.com/Plymouth for details. Or  https://wiki.ubuntuusers.de/Plymouth/ for the instructions in Dutch.
+See https://wiki.ubuntu.com/Plymouth for details. Or  https://wiki.ubuntuusers.de/Plymouth/ for the instructions in German.
