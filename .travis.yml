@@ -18,9 +18,11 @@ before_deploy:
   - export logo_package="`echo plymouth-theme-meilix-logo_*_all.deb`"
   - export text_package="`echo plymouth-theme-meilix-text_*_all.deb`"
   - export login_package="`echo sddm-theme-meilix_*_all.deb`"
+  - export theme_package="`echo meilix-default-theme_*_all.deb`"
   - cat plymouth-theme-meilix-logo_*_all.deb > "/home/travis/${logo_package}"
   - cat plymouth-theme-meilix-text_*_all.deb > "/home/travis/${text_package}"
   - cat sddm-theme-meilix_*_all.deb > "/home/travis/${login_package}"
+  - cat meilix-default-theme_*_all.deb > "/home/travis/${theme_package}"
   - cp log.txt /home/travis/log.txt
 notifications: 
 slack: fossasia:3pMkQrSogvEMfnu9aJDW2ZYC
@@ -32,6 +34,7 @@ deploy:
   - "/home/travis/${logo_package}"
   - "/home/travis/${text_package}"
   - "/home/travis/${login_package}"
+  - "/home/travis/${theme_package}"
   on:
     repo: fossasia/meilix-artwork
     branch: deb
