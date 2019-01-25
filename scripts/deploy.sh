@@ -20,7 +20,7 @@ if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
   cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-logo_*_all.deb deb/
   cp -Rf $TRAVIS_BUILD_DIR/plymouth-theme-meilix-text_*_all.deb deb/
   cp -Rf $TRAVIS_BUILD_DIR/sddm-theme-meilix_*_all.deb deb/
-  cp -Rf $TRAVIS_BUILD_DIR/meilix-default-theme_*_all.deb/ deb/
+  cp -Rf $TRAVIS_BUILD_DIR/meilix-default-theme_*_all.deb deb/
   cd deb
 
   git checkout --orphan workaround
