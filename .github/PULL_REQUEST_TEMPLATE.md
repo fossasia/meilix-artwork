@@ -6,7 +6,7 @@ Fixes #
 - [ ] I have read the [Contribution & Best practices Guide](https://blog.fossasia.org/open-source-developer-guide-and-best-practices-at-fossasia) and my PR follows them.
 - [ ] My branch is up-to-date with the Upstream `master` branch.
 - [ ] I have added necessary documentation (if appropriate)
-- [ ] Added breif description with screenshots.
+- [ ] Added brief description with screenshots.
 
 #### Changes proposed in this pull request:
 
