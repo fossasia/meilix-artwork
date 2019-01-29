@@ -2,6 +2,9 @@
 - [ ] bug report
 - [ ] feature request
 
+### Short description
+<!-- Explain in a few sentences what the issue/request is -->
+
 **Current behavior:**
 <!-- How the bug manifests. -->
 
